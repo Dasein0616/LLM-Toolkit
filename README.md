@@ -1,4 +1,9 @@
 # LLM-Toolki大模型工具大全
+![工具数量](https://img.shields.io/badge/工具数量-700+-1890ff)
+![更新时间](https://img.shields.io/badge/更新时间-2026.2-32c955)
+![维护状态](https://img.shields.io/badge/维护状态-持续更新-brightgreen)
+![新手友好](https://img.shields.io/badge/新手友好-高-%23ff7875)
+
 ✨ 整理全球主流AI工具，按场景分类，方便开发者、创作者、学生快速筛选  
 📌 持续更新中，欢迎提交PR贡献你常用的工具～
 
