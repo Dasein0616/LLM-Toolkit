@@ -1,0 +1,191 @@
+/* 全局样式重置 */
+:root {
+  --md-primary-fg-color: #6366f1 !important;
+  --md-accent-fg-color: #14b8a6 !important;
+  --md-default-bg-color: #f8fafc !important;
+  --md-code-bg-color: #1e293b !important;
+  --md-text-color: #1e293b !important;
+}
+
+/* 暗黑模式适配 */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #818cf8 !important;
+  --md-accent-fg-color: #22d3ee !important;
+  --md-default-bg-color: #0f172a !important;
+  --md-text-color: #f1f5f9 !important;
+}
+
+/* 全局字体优化 */
+body {
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  line-height: 1.6 !important;
+  letter-spacing: 0.2px !important;
+}
+
+/* 标题样式美化 */
+.md-typeset h1 {
+  color: var(--md-primary-fg-color) !important;
+  font-weight: 700 !important;
+  border-bottom: 2px solid var(--md-accent-fg-color);
+  padding-bottom: 8px;
+  margin-bottom: 24px !important;
+}
+
+.md-typeset h2 {
+  color: #334155 !important;
+  font-weight: 600 !important;
+  margin-top: 32px !important;
+  position: relative;
+  padding-left: 12px;
+}
+
+.md-typeset h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 20px;
+  background-color: var(--md-accent-fg-color);
+  border-radius: 2px;
+}
+
+/* 工具卡片布局 */
+.tool-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 24px 0;
+}
+
+.tool-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid #e2e8f0;
+}
+
+[data-md-color-scheme="slate"] .tool-card {
+  background-color: #1e293b;
+  border-color: #334155;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.1);
+  border-color: var(--md-primary-fg-color);
+}
+
+.tool-card h3 {
+  margin: 0 0 12px 0 !important;
+  color: var(--md-primary-fg-color) !important;
+  font-size: 18px !important;
+}
+
+.tool-card .tool-desc {
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+[data-md-color-scheme="slate"] .tool-card .tool-desc {
+  color: #94a3b8;
+}
+
+.tool-card .tool-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tool-card .tool-tag {
+  background-color: #f1f5f9;
+  color: #334155;
+  padding: 4px 10px;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+[data-md-color-scheme="slate"] .tool-card .tool-tag {
+  background-color: #334155;
+  color: #f1f5f9;
+}
+
+.tool-card .tool-link {
+  display: inline-block;
+  background-color: var(--md-primary-fg-color);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.tool-card .tool-link:hover {
+  background-color: #4f46e5;
+}
+
+/* 表格美化 */
+.md-typeset table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: none !important;
+}
+
+.md-typeset table th {
+  background-color: var(--md-primary-fg-color) !important;
+  color: white !important;
+  border: none !important;
+  padding: 12px 8px !important;
+}
+
+.md-typeset table td {
+  border: none !important;
+  padding: 12px 8px !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .tool-card-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .md-typeset h1 {
+    font-size: 24px !important;
+  }
+  
+  .md-typeset h2 {
+    font-size: 20px !important;
+  }
+}
+
+/* 提示框美化 */
+.md-typeset .admonition {
+  border-radius: 8px;
+  border-left: 4px solid var(--md-accent-fg-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset .admonition-title {
+  background-color: rgba(20, 184, 166, 0.1) !important;
+  border-bottom: none !important;
+}
+
+/* 返回顶部按钮美化 */
+.md-top {
+  border-radius: 50% !important;
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.md-top:hover {
+  transform: scale(1.1);
+  background-color: var(--md-accent-fg-color) !important;
+}
