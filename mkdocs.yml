@@ -1,12 +1,13 @@
-# 网站基本信息（适配你的仓库）
+# 网站基本信息
 site_name: LLM-Toolkit 大模型工具大全
 site_description: 700+ AI工具分类导航与对比，覆盖43个细分场景
 site_url: https://Dasein0616.github.io/LLM-Toolkit/
 site_author: Dasein0616
 
+# 关键配置：指定文档在根目录
 docs_dir: ./
 
-# 主题配置（优化43个分类的导航体验）
+# 主题配置
 theme:
   name: material
   language: zh
@@ -26,17 +27,14 @@ theme:
   features:
     - search.suggest
     - search.highlight
-    - search.share
-    - navigation.tabs  # 顶部标签（可选关闭，分类多可改用侧边栏）
     - navigation.expand
     - navigation.top
-    - navigation.instant  # 快速跳转
-    - mobile.fab
     - content.code.copy
 
-# 导航栏配置（完整43个分类）
+# 完整导航栏（匹配所有文件）
 nav:
   - 首页: index.md
+  # 43个核心分类
   - 一、主流通用语言模型: models/general.md
   - 二、AI提示词工具: models/prompt.md
   - 三、AI数据处理与分析工具: models/data_analysis.md
@@ -80,32 +78,25 @@ nav:
   - 四十一、AI教育工具: models/education.md
   - 四十二、AI学习工具: models/learning.md
   - 四十三、AI数据可视化工具: models/data_visualization.md
-  - 如何贡献新工具: contribute/add_tool.md
-  - 问题反馈: contribute/feedback.md
+  # 工具对比专区
+
+  # 贡献与反馈
+  - 贡献与反馈:
+      - 新增工具指南: contribute/add_tool.md
+      - 问题反馈: contribute/feedback.md
+  # 审核日志
   - 审核日志: logs/audit_log.md
 
-# 插件配置（强化搜索，适配多分类）
+# 插件配置
 plugins:
   - search:
       lang:
         - zh
         - en
-      separator: '[\s\-\.]+'
-      min_search_length: 1  # 支持单字搜索（如“驾”“法”）
+      min_search_length: 1
 
-# 额外配置
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Dasein0616/LLM-Toolkit
-  generator: false
-
-# markdown扩展
+# Markdown扩展
 markdown_extensions:
-  - attr_list
-  - md_in_html
   - tables
-  - footnotes
   - toc:
       permalink: true
-      toc_depth: 2  # 目录显示2级标题
