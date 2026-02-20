@@ -78,6 +78,7 @@ extra_javascript:
 # 导航栏（保持你的原有结构不变）
 nav:
   - 首页: index.md
+  - 常见问题解答(FAQ): faq.md
   - 工具大全:
       - 一、主流通用语言模型: models/general.md
       - 二、AI提示词工具: models/prompt.md
