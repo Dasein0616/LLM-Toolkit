@@ -5,7 +5,7 @@ site_url: https://Dasein0616.github.io/LLM-Toolkit/
 site_author: Dasein0616
 
 # 关键配置：指定文档在根目录
-docs_dir: ./
+docs_dir: docs
 
 # 主题配置
 theme:
