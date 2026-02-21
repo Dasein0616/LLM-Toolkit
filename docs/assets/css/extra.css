@@ -189,3 +189,16 @@ body {
   transform: scale(1.1);
   background-color: var(--md-accent-fg-color) !important;
 }
+/* 美化返回仓库按钮 */
+a[href="https://github.com/Dasein0616/LLM-Toolkit"] {
+  background-color: #6366f1; /* 网站主色，和你现有配色一致 */
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+a[href="https://github.com/Dasein0616/LLM-Toolkit"]:hover {
+  background-color: #4f46e5; /* 鼠标悬浮时的深色主色 */
+}
