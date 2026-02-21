@@ -71,6 +71,7 @@ extra:
 
 extra_css:
   - assets/css/extra.css
+  
 extra_javascript:
   - assets/js/extra.js
   - https://hm.baidu.com/hm.js?ad878973f2fce01a392b5d4b9f19e0e7
