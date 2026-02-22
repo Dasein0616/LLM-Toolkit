@@ -40,6 +40,8 @@
 - 官网地址：https://grok.x.ai
 
 <!-- 表格 -->
+<div style="display: flex; justify-content: center; margin: 2rem 0;">
+  <div style="width: 90%;">
 | 模型名称 | 核心特色 | 适用场景 |
 |----------|----------|----------|
 | ChatGPT  | 多任务处理、子模型调度 | 编程、创意写作、健康咨询 |
