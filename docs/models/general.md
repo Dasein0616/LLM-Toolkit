@@ -40,8 +40,6 @@
 - 官网地址：https://grok.x.ai
 
 <!-- 表格 -->
-<div style="display: flex; justify-content: center; margin: 2rem 0;">
-  <div style="width: 90%;">
 | 模型名称 | 核心特色 | 适用场景 |
 |----------|----------|----------|
 | ChatGPT  | 多任务处理、子模型调度 | 编程、创意写作、健康咨询 |
@@ -54,8 +52,5 @@
 | 豆包     | 场景化功能、情绪表达 | 创意生图、视频解析 |
 | 腾讯元宝 | 微信生态、双模态 | 工作流搭建、编程推理 |
 | Grok     | 实时X信息、低限制 | 个性化对话、实时资讯 |
-  </div>
-</div>
-
 
 > 📌 [反馈该分类工具的信息错误/链接失效](https://github.com/Dasein0616/LLM-Toolkit/issues/new)
