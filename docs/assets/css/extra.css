@@ -235,20 +235,3 @@ body {
 .md-content .md-typeset table:not([class]) tr:hover {
   background-color: #f8fafc;
 }
-
-/* 适配深色模式 */
-@media (prefers-color-scheme: dark) {
-  .md-content .md-typeset table:not([class]) {
-    background-color: #1e293b;
-    border-color: #334155;
-  }
-  .md-content .md-typeset table:not([class]) th {
-    background-color: #4f46e5;
-  }
-  .md-content .md-typeset table:not([class]) td {
-    border-bottom-color: #334155;
-  }
-  .md-content .md-typeset table:not([class]) tr:hover {
-    background-color: #334155;
-  }
-}
