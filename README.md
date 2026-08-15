@@ -290,6 +290,10 @@
 ### 14. Emu Edit
 - 核心能力：Meta推出的AI图像编辑模型，专注精准图像修改，支持文字指令驱动的局部编辑、替换、修复，语义理解强，编辑可控性高。
 - 官网地址：https://ai.meta.com/research/
+### 15. Emu
+- 核心能力：在线生成 GPT Image 2 / Nano Banana Pro 图片，登录即用，无需中转站、无需申请 API Key，生成完直接下载。
+- 官网地址：https://image.tinchak0207.xyz
+
 
 [🔝 回到顶部](#目录)
 ---
