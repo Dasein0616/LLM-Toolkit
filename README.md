@@ -287,12 +287,12 @@
 - 核心能力：轻量化AI绘图工具，操作简单、出图快速，主打简洁易用的文生图能力，适合新手快速生成插画、卡通、创意素材。
 - 官网地址：https://nanobanana.ai/
 
-### 14. Emu Edit
+### 14. Eimu Edit
 - 核心能力：Meta推出的AI图像编辑模型，专注精准图像修改，支持文字指令驱动的局部编辑、替换、修复，语义理解强，编辑可控性高。
 - 官网地址：https://ai.meta.com/research/
-### 15. Emu
+### 15. Eimu
 - 核心能力：在线生成 GPT Image 2 / Nano Banana Pro 图片，登录即用，无需中转站、无需申请 API Key，生成完直接下载。
-- 官网地址：https://image.tinchak0207.xyz
+- 官网地址：https://eimu.art
 
 
 [🔝 回到顶部](#目录)
@@ -347,7 +347,7 @@
 - 核心能力：Google官方平台，集成VideoGemini视频生成能力，支持文生视频、多模态视觉交互，与Google生态深度联动。
 - 官网地址：https://aistudio.google.com/
 
-### 13. Emu Video
+### 13. Eimu Video
 - 核心能力：Meta推出的轻量化文生视频模型，高效生成短时长高清视频，语义理解准确，适配基础视觉视频创作需求。
 - 官网地址：https://ai.meta.com/research/
 
